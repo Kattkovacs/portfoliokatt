@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pro{
+  position: absolute;
+  padding: 5px;
+  color: white;
+}
+
+.progress{
+  height: 30px;
+  transition: 0.5s ease;
+}
+.progress:hover{
+  transform: scale(1.1);
+}
+
+/* Cards */
+.card img{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.card{
+  transition: 0.5s ease;
+}
+
+.card:hover{
+  background-color: #880E4F;
+  color: white;
+  box-shadow: 2px 2px 4px #880E4F;
+  cursor: pointer;
+}
+
+.btn-primary, .bg-primary{
+  color: #ffffff;
+  background-color: #880E4F !important;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  color: #880E4F;
+  background-color: #a2f08f;
+  border-color: transparent;
+}
+
+.btn-outline-primary {
+  color: #880E4F;
+  background-color: transparent;
+  background-image: none;
+  border-color: #880E4F;
+}
+
+.btn-outline-primary:hover {
+  color: #54c03a;
+  background-color: transparent;
+  border-color: #a2f08f;
+}
+
+.bg-danger{
+  background-color: #510e88 !important;
+}
+
+.bg-success{
+  background-color: #2f0e88 !important;
+}
+
+.bg-info{
+  background-color: #0e7088 !important;
+}
+
+.bg-warning{
+  background-color: #880e33 !important;
+}
