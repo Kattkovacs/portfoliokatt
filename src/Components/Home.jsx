@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import About from './About'
+import Gallery from './Gallery'
 import Service from './Service'
 import Contact from './Contact'
 
@@ -22,11 +22,11 @@ const Home = () => {
                     </div>
                     {/* For Image */}
                     <div className="col-md-7 d-flex justify-content-center align-items-center">
-                        <img src="/assets/images/katt.jpg" alt="Katt Kovacs" height="300px" width="300px" />
+                        <img src="./assets/images/katt.jpg" alt="Katt Kovacs" height="300px" width="300px" />
                     </div>
                 </div>
             </section>
-            <About />
+            <Gallery />
             <Service />
             <Contact />
         </div>

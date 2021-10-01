@@ -6,7 +6,7 @@ const Service = () => {
     const card = (props) => {
         return (
             <div className="col-md-4 mb-5 pb-5">
-                <div className="card text-center py-5" key={props.id} >
+                <div className="card text-center py-5 d-flex justify-content-center align-items-center" key={props.id} >
                     <img src={props.img} className="card-img-top mx-auto p-2" alt={props.title} />
                     <div className="card-body">
                         <h5 className="card-title">{props.title}</h5>
@@ -21,8 +21,7 @@ const Service = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center py-4 mb-5">
-                        <h1>Services</h1>
-                        <hr />
+                        <h2>Services</h2>
                     </div>
                     <div className="row">
                         {DATA.map(card)}

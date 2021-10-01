@@ -7,18 +7,17 @@ const About = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 text-center py-4">
-                            <h1>About</h1>
-                            <hr />
+                            <h2>About</h2>
                         </div>
                     </div>
                 </div>
-                <div className="container my-5">
+                <div className="container">
                     <div className="row">
-                        <div className="col-md-6 mx-auto">
-                            <img src="/assets/images/katt.jpg" alt="Katt Kovacs" height="300px" width="300px" />
+                        <div className="col-md-6 mx-auto py-5 d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/katt.jpg" alt="Katt Kovacs" height="300px" width="300px" />
                         </div>
                         <div className="col-md-6 my-5">
-                            <h1 className="display-5 mb-4">Katalin Katt Kovács</h1>
+                            <h2 className="display-5 mb-4">Katalin Katt Kovács</h2>
                             <p className="lead mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Nulla, rerum quisquam?
                                 Praesentium at quam accusamus voluptates
