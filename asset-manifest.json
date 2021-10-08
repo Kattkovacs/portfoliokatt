@@ -1,33 +1,34 @@
 {
   "files": {
-    "main.css": "/portfoliokatt/static/css/main.4e8d7715.chunk.css",
-    "main.js": "/portfoliokatt/static/js/main.139a01b2.chunk.js",
-    "main.js.map": "/portfoliokatt/static/js/main.139a01b2.chunk.js.map",
-    "runtime-main.js": "/portfoliokatt/static/js/runtime-main.bdca08be.js",
-    "runtime-main.js.map": "/portfoliokatt/static/js/runtime-main.bdca08be.js.map",
+    "main.css": "/portfoliokatt/static/css/main.6cf9c799.chunk.css",
+    "main.js": "/portfoliokatt/static/js/main.976aedc3.chunk.js",
+    "main.js.map": "/portfoliokatt/static/js/main.976aedc3.chunk.js.map",
+    "runtime-main.js": "/portfoliokatt/static/js/runtime-main.855aac94.js",
+    "runtime-main.js.map": "/portfoliokatt/static/js/runtime-main.855aac94.js.map",
     "static/css/2.f2512455.chunk.css": "/portfoliokatt/static/css/2.f2512455.chunk.css",
-    "static/js/2.e2a84358.chunk.js": "/portfoliokatt/static/js/2.e2a84358.chunk.js",
-    "static/js/2.e2a84358.chunk.js.map": "/portfoliokatt/static/js/2.e2a84358.chunk.js.map",
-    "static/js/3.42f2747e.chunk.js": "/portfoliokatt/static/js/3.42f2747e.chunk.js",
-    "static/js/3.42f2747e.chunk.js.map": "/portfoliokatt/static/js/3.42f2747e.chunk.js.map",
+    "static/js/2.acaf1d13.chunk.js": "/portfoliokatt/static/js/2.acaf1d13.chunk.js",
+    "static/js/2.acaf1d13.chunk.js.map": "/portfoliokatt/static/js/2.acaf1d13.chunk.js.map",
+    "static/js/3.ae4c0a5d.chunk.js": "/portfoliokatt/static/js/3.ae4c0a5d.chunk.js",
+    "static/js/3.ae4c0a5d.chunk.js.map": "/portfoliokatt/static/js/3.ae4c0a5d.chunk.js.map",
     "index.html": "/portfoliokatt/index.html",
     "static/css/2.f2512455.chunk.css.map": "/portfoliokatt/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.4e8d7715.chunk.css.map": "/portfoliokatt/static/css/main.4e8d7715.chunk.css.map",
-    "static/js/2.e2a84358.chunk.js.LICENSE.txt": "/portfoliokatt/static/js/2.e2a84358.chunk.js.LICENSE.txt",
+    "static/css/main.6cf9c799.chunk.css.map": "/portfoliokatt/static/css/main.6cf9c799.chunk.css.map",
+    "static/js/2.acaf1d13.chunk.js.LICENSE.txt": "/portfoliokatt/static/js/2.acaf1d13.chunk.js.LICENSE.txt",
+    "static/media/barat_11.jpg": "/portfoliokatt/static/media/barat_11.a6356642.jpg",
+    "static/media/barat_3_4.jpg": "/portfoliokatt/static/media/barat_3_4.b5331feb.jpg",
+    "static/media/barat_5.jpg": "/portfoliokatt/static/media/barat_5.40b0cf45.jpg",
+    "static/media/barat_8_9.jpg": "/portfoliokatt/static/media/barat_8_9.07bf6c32.jpg",
     "static/media/exclusive_01.jpg": "/portfoliokatt/static/media/exclusive_01.a7b73d0e.jpg",
     "static/media/exclusive_02.jpg": "/portfoliokatt/static/media/exclusive_02.b68490a8.jpg",
     "static/media/exclusive_03.JPG": "/portfoliokatt/static/media/exclusive_03.1f9283db.JPG",
     "static/media/exclusive_04.JPG": "/portfoliokatt/static/media/exclusive_04.890abbc1.JPG",
-    "static/media/istvantelek.JPG": "/portfoliokatt/static/media/istvantelek.b90e396e.JPG",
-    "static/media/katt.jpg": "/portfoliokatt/static/media/katt.316e2376.jpg",
-    "static/media/nyugati.JPG": "/portfoliokatt/static/media/nyugati.4618e3cb.JPG",
-    "static/media/teakwood.JPG": "/portfoliokatt/static/media/teakwood.48d2cb8c.JPG"
+    "static/media/katt.jpg": "/portfoliokatt/static/media/katt.316e2376.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bdca08be.js",
+    "static/js/runtime-main.855aac94.js",
     "static/css/2.f2512455.chunk.css",
-    "static/js/2.e2a84358.chunk.js",
-    "static/css/main.4e8d7715.chunk.css",
-    "static/js/main.139a01b2.chunk.js"
+    "static/js/2.acaf1d13.chunk.js",
+    "static/css/main.6cf9c799.chunk.css",
+    "static/js/main.976aedc3.chunk.js"
   ]
 }
