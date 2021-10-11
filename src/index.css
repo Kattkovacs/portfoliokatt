@@ -7,10 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 .pro{
   position: absolute;
@@ -27,21 +27,39 @@ code {
 }
 
 /* Cards */
-.card img{
-  width: 100px;
-  height: 100px;
+.card-service img{
+  width: 80px;
+  height: 80px;
   background-color: white;
 }
 
-.card{
+.card-service{
   transition: 0.5s ease;
+  color: #880E4F;
 }
 
-.card:hover{
+.card-service:hover{
   background-color: #880E4F;
   color: white;
   box-shadow: 2px 2px 4px #880E4F;
   cursor: pointer;
+}
+
+.card img{
+  padding: 5px;
+	margin: 5px;
+} 
+
+.card-project{
+  float: left;
+  width:  250px;
+  height: 250px;
+  background-size: cover;
+  color: #880E4F;
+}
+
+.card-project:hover{
+  color: #eb1b8a;
 }
 
 .btn-primary, .bg-primary{
@@ -51,8 +69,8 @@ code {
 }
 
 .btn-primary:hover {
-  color: #880E4F;
-  background-color: #a2f08f;
+  color: #ffffff;
+  background-color: #eb1b8a !important;
   border-color: transparent;
 }
 
@@ -64,9 +82,9 @@ code {
 }
 
 .btn-outline-primary:hover {
-  color: #54c03a;
+  color: #eb1b8a;
   background-color: transparent;
-  border-color: #a2f08f;
+  border-color: #eb1b8a;
 }
 
 .bg-danger{

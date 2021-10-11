@@ -1,0 +1,40 @@
+.tags {
+	text-align: center;
+	padding: 10px 0px;
+	background-color: transparent;
+	color: rgb(146, 148, 155);
+}
+
+.grey-text{
+	color: rgb(83, 84, 88);
+}
+
+.tag {
+	outline: none;
+	border: none;
+	color: rgb(83, 84, 88);
+	margin: 0px 5px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.active {
+	font-weight: 500;
+}
+
+.cont {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.image-card {
+	padding: 5px;
+	margin: 5px;
+}
+
+.image {
+	width: 100%;
+}
