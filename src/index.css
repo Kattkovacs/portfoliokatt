@@ -34,6 +34,7 @@ body {
 }
 
 .card-service{
+  width: 70%;
   transition: 0.5s ease;
   color: #880E4F;
 }
@@ -47,14 +48,17 @@ body {
 
 .card img{
   padding: 5px;
-	margin: 5px;
+	margin: 0px;
 } 
 
+.card-project img{
+  height: '100%';
+  background-color: white;
+}
+
 .card-project{
-  float: left;
-  width:  250px;
-  height: 250px;
-  background-size: cover;
+  width: 100%;
+  transition: 0.5s ease;
   color: #880E4F;
 }
 

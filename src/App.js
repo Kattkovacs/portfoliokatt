@@ -9,7 +9,9 @@ import Photography from './Components/Photography';
 import GraphicDesign from './Components/GraphicDesign';
 import WebDesign from './Components/WebDesign';
 import {Switch, Route} from 'react-router-dom';
-
+import ProjectBarat from './Components/ProjectBarat';
+import ProjectExclusive from './Components/ProjectExclusive';
+import ProjectUgocsa from './Components/ProjectUgocsa';
 
 function App() {
   return (
@@ -24,6 +26,10 @@ function App() {
       <Route exact path='/photography' component={Photography}/>
       <Route exact path='/graphic-design' component={GraphicDesign}/>      
       <Route exact path='/web-design' component={WebDesign}/>
+
+      <Route exact path='/project-barat' component={ProjectBarat}/>
+      <Route exact path='/project-exclusive' component={ProjectExclusive}/>
+      <Route exact path='/project-ugocsa' component={ProjectUgocsa}/>
     </Switch>
   <Footer />
   </>

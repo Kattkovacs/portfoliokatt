@@ -6,7 +6,8 @@ const Footer = () => {
             <footer className="footer body">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-12 text-white bg-dark">
+                        <div className="col-12 text-white bg-secondary">
+                            <br />
                             <p className="lead text-center pt-1 fs-6">
                                 Copyright © Katt 2021
                             </p>

@@ -6,9 +6,9 @@ const Service = () => {
     const card = (props) => {
         return (
             <div className="col-md-4 mb-5 pb-5 body grey-text" key={props.id}>
-                <NavLink className="nav-link" to={props.link}>
+                <NavLink className="nav-link d-flex justify-content-center align-items-center" to={props.link}>
                     <div className="card card-service text-center py-5 d-flex justify-content-center align-items-center">
-                        <img src={props.img} className="card-img-top mx-auto p-2" alt={props.title} />
+                        <img src={props.img} className="card-img-top mx-auto" alt={props.title} />
                         <div className="card-body">
                             <h5 className="card-title">{props.title}</h5>
                             <p className="card-text">{props.desc}</p>
@@ -23,7 +23,7 @@ const Service = () => {
             <section>
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 text-center grey-text py-4 mt-3">
+                        <div className="col-12 text-center grey-text mb-5 py-4 mt-3">
                             <div></div>
                             <h4>Services</h4>
                         </div>
