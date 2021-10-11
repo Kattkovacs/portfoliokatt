@@ -1,21 +1,28 @@
+const img1 = require('../img/003-graphic.png').default;
+const img2 = require('../img/002-photo.png').default;
+const img3 = require('../img/001-web-design.png').default;
+
 const DATA = [
     {
         id : 0,
-        img : './assets/images/003-graphic.png',
+        img : img1,
         title: "Graphic Design",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae distinctio nisi veritatis pariatur eos perspiciatis? Ad perferendis excepturi totam voluptatibus. Expedita a aperiam labore cum, neque iste aspernatur nihil incidunt."      
+        link: './graphic-design',
+        desc : ""      
     },
     {
         id : 1,
-        img : './assets/images/002-photo.png',
+        img : img2,
         title: "Photography",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae distinctio nisi veritatis pariatur eos perspiciatis? Ad perferendis excepturi totam voluptatibus. Expedita a aperiam labore cum, neque iste aspernatur nihil incidunt."      
+        link: './photography',
+        desc : ""      
     },
     {
         id : 2,
-        img : './assets/images/001-web-design.png',
+        img : img3,
         title: "Web Design",
-        desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae distinctio nisi veritatis pariatur eos perspiciatis? Ad perferendis excepturi totam voluptatibus. Expedita a aperiam labore cum, neque iste aspernatur nihil incidunt."      
+        link: './web-design',
+        desc : ""      
     }
 ]
 

@@ -8,10 +8,13 @@ const Contact = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center py-4 mb-5">
-                            <h2>Get in touch</h2>
+                            <h4>Get in touch</h4>
                         </div>
                         <div className="col-md-6 maps d-flex justify-content-center align-items-center" >
-                            <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" frameborder="0"  allowfullscreen></iframe>
+                            <div className="mapouter"><div className="gmap_canvas">
+                                <iframe title="map" width="300" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=budapest&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+                            </div>
+                            </div>
                         </div>
                         <div className="col-md-6">
                             <div className="email">
