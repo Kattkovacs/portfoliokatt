@@ -1,7 +1,7 @@
-const img5 = require('../img/barat_3_4.jpg').default;
-const img6 = require('../img/barat_8_9.jpg').default;
-const img7 = require('../img/barat_5.jpg').default;
-const img8 = require('../img/barat_11.jpg').default;
+const img5 = require('../../img/barat_3_4.jpg').default;
+const img6 = require('../../img/barat_8_9.jpg').default;
+const img7 = require('../../img/barat_5.jpg').default;
+const img8 = require('../../img/barat_11.jpg').default;
 
 const dataBarat = [
 

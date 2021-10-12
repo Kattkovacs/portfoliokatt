@@ -7,7 +7,7 @@ const GalleryComponent = ({ data }) => {
     images = data;
     const [tag, setTag] = useState('All');
     const [filteredImages, setFilteredImages] = useState([]);
-    debugger;
+    // debugger;
     useEffect(
         () => {
             tag === 'All' ? setFilteredImages(images) : setFilteredImages(images.filter(image => image.tag === tag));

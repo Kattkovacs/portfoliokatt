@@ -9,9 +9,9 @@ import Photography from './Components/Photography';
 import GraphicDesign from './Components/GraphicDesign';
 import WebDesign from './Components/WebDesign';
 import {Switch, Route} from 'react-router-dom';
-import ProjectBarat from './Components/ProjectBarat';
-import ProjectExclusive from './Components/ProjectExclusive';
-import ProjectUgocsa from './Components/ProjectUgocsa';
+import ProjectBarat from './Components/GraphicProjectData/ProjectBarat';
+import ProjectExclusive from './Components/GraphicProjectData/ProjectExclusive';
+import ProjectUgocsa from './Components/GraphicProjectData/ProjectUgocsa';
 
 function App() {
   return (

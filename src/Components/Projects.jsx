@@ -1,18 +1,19 @@
 import React from 'react';
-import dataExclusive from './DataExclusive';
-import dataBarat from './DataBarat';
+import dataExclusive from './GraphicProjectData/DataExclusive';
+import dataBarat from './GraphicProjectData/DataBarat';
 import { NavLink } from 'react-router-dom'
+import dataUgocsa from './GraphicProjectData/DataUgocsa';
 
 const Projects = () => {
-const images = [ ...dataExclusive, ...dataBarat ]
+    const images = [ ...dataExclusive, ...dataBarat, ...dataUgocsa ]
 
     const card = (props) => {
         return (
-            <div className="col-md-4 mb-5  pb-5" key={props.id}>
+            <div className="col-md-4 mb-5 body pb-5" key={props.id}>
                 <NavLink className="nav-link" to={props.link}>
-                    <div className="card card-project text-center py-5 d-flex justify-content-center align-items-center crop">
+                    <div className="card card-project text-center d-flex justify-content-center align-items-center">
+                        <img src={props.imageName} className="card-img-top mx-auto" alt={props.title} />
                         <div className="card-body">
-                            <img src={props.imageName} className="card-img-top mx-auto" alt={props.title} />
                             <h5 className="card-title">{props.galleryName}</h5>
                             <p className="card-text">{props.type}</p>
                         </div>
@@ -26,10 +27,10 @@ const images = [ ...dataExclusive, ...dataBarat ]
             <section>
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 text-center grey-text py-4 mb-5 mt-3">
+                        {document.location.pathname === '/portfoliokatt/' && <div className="col-12 text-center grey-text py-4 mb-5 mt-3">
                             <div></div>
                             <h4>Projects</h4>
-                        </div>
+                        </div>}
                         <div className="container">
                             <div className="row">
                                 {images.filter(p => (p.type.length > 0) ? card : '').map(card)}

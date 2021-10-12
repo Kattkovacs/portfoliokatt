@@ -1,7 +1,7 @@
-const img1 = require('../img/exclusive_01.jpg').default;
-const img2 = require('../img/exclusive_02.jpg').default;
-const img3 = require('../img/exclusive_03.JPG').default;
-const img4 = require('../img/exclusive_04.JPG').default;
+const img1 = require('../../img/exclusive_01.jpg').default;
+const img2 = require('../../img/exclusive_02.jpg').default;
+const img3 = require('../../img/exclusive_03.JPG').default;
+const img4 = require('../../img/exclusive_04.JPG').default;
 
 
 const dataExclusive = [
