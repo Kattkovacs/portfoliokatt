@@ -106,3 +106,7 @@ body {
 .bg-warning{
   background-color: #880e33 !important;
 }
+
+.footer-color{
+  background-color: rgb(83, 84, 88);
+}
