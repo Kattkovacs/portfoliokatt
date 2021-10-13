@@ -12,6 +12,8 @@ import {Switch, Route} from 'react-router-dom';
 import ProjectBarat from './Components/GraphicProjectData/ProjectBarat';
 import ProjectExclusive from './Components/GraphicProjectData/ProjectExclusive';
 import ProjectUgocsa from './Components/GraphicProjectData/ProjectUgocsa';
+import ProjectBcn from './Components/PhotoProjectData/ProjectBcn';
+import ProjectGrundImpro from './Components/PhotoProjectData/ProjectGrundImpro';
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
       <Route exact path='/project-barat' component={ProjectBarat}/>
       <Route exact path='/project-exclusive' component={ProjectExclusive}/>
       <Route exact path='/project-ugocsa' component={ProjectUgocsa}/>
+      <Route exact path='/photo-bcn' component={ProjectBcn}/>
+      <Route exact path='/photo-grund-impro' component={ProjectGrundImpro}/>
     </Switch>
   <Footer />
   </>

@@ -1,8 +1,11 @@
-import '../App.css';
-
+import '../App.css'
+import Projects from './Projects'
+import dataBcn from './PhotoProjectData/DataBcn'
+import dataGrund from './PhotoProjectData/DataGrund'
 
 
 const Photography = () => {
+    const imageDatas = [...dataBcn, ...dataGrund]
     return (
         <div>
             <section>
@@ -13,7 +16,11 @@ const Photography = () => {
                             <h4>Photography</h4>
                         </div>
                     </div>
+                <div >
                 </div>
+                    <Projects imageData={imageDatas}/>
+                </div>
+                <div className="mb-5"></div>
             </section>
         </div>
     )

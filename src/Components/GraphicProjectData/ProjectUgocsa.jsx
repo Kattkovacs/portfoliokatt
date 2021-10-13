@@ -1,5 +1,5 @@
 import React from 'react'
-import GalleryComponent from './GalleryComponent'
+import GalleryComponent from '../GalleryComponent'
 import dataUgocsa from './DataUgocsa'
 
 const ProjectUgocsa = () => {

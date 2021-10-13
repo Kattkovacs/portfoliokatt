@@ -1,11 +1,9 @@
-import React from 'react';
-import dataExclusive from './GraphicProjectData/DataExclusive';
-import dataBarat from './GraphicProjectData/DataBarat';
+import React from 'react'
 import { NavLink } from 'react-router-dom'
-import dataUgocsa from './GraphicProjectData/DataUgocsa';
 
-const Projects = () => {
-    const images = [ ...dataExclusive, ...dataBarat, ...dataUgocsa ]
+
+const Projects = (props) => {
+    const images = props.imageData;
 
     const card = (props) => {
         return (
@@ -29,7 +27,7 @@ const Projects = () => {
                     <div className="row">
                         {document.location.pathname === '/portfoliokatt/' && <div className="col-12 text-center grey-text py-4 mb-5 mt-3">
                             <div></div>
-                            <h4>Projects</h4>
+                            <h4>Project proposer</h4>
                         </div>}
                         <div className="container">
                             <div className="row">

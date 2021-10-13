@@ -3,8 +3,12 @@ import { NavLink } from 'react-router-dom'
 import Projects from './Projects'
 import Service from './Service'
 import Contact from './Contact'
+import dataExclusive from './GraphicProjectData/DataExclusive'
+import dataUgocsa from './GraphicProjectData/DataUgocsa'
+import dataBcn from './PhotoProjectData/DataBcn'
 
 const Home = () => {
+    const imageDatas = [...dataExclusive, ...dataUgocsa, ...dataBcn]
     return (
         <div>
             <section className="container my-5 py-4 body">
@@ -27,7 +31,7 @@ const Home = () => {
                     </div>
                 
             </section>
-            <Projects />
+            <Projects imageData={imageDatas} />
             <Service />
             <Contact />
         </div>

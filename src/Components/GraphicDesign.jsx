@@ -1,8 +1,11 @@
 import React from 'react'
 import Projects from './Projects'
-
+import dataExclusive from './GraphicProjectData/DataExclusive'
+import dataBarat from './GraphicProjectData/DataBarat'
+import dataUgocsa from './GraphicProjectData/DataUgocsa'
 
 const GraphicDesign = () => {
+    const imageDatas = [...dataExclusive, ...dataBarat, ...dataUgocsa]
     return (
         <div>
             <section>
@@ -15,7 +18,7 @@ const GraphicDesign = () => {
                     </div>
                 </div>
                 <div >
-                    <Projects />
+                    <Projects imageData={imageDatas} />
                 </div>
                 <div className="mb-5"></div>
             </section>
