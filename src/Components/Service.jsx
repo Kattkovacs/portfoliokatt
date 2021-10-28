@@ -25,7 +25,6 @@ const Service = () => {
                     <div className="row">
                         <div className="col-12 text-center grey-text mb-5 py-4 mt-3">
                             <div></div>
-                            <h4>Services</h4>
                         </div>
                         <div className="container">
                             <div className="row">

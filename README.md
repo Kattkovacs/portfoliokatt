@@ -1,3 +1,13 @@
+
+# This site is a Portfolio site of Kattkovacs
+
+Made with REACT, Bootstrap and love.
+Deployed with gh-pages.
+
+
+
+# REACT README and useful SCRIPTS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -28,6 +38,11 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run deploy`
+
+Runs "npm run build && gh-pages -d build" from package.json.
+It pushes to gh-pages branch, build there and deploy to https://kattkovacs.github.io/portfoliokatt/
 
 ### `npm run eject`
 
