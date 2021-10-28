@@ -27,7 +27,6 @@ const Projects = (props) => {
                     <div className="row">
                         {document.location.pathname === '/portfoliokatt/' && <div className="col-12 text-center grey-text py-4 mb-5 mt-3">
                             <div></div>
-                            <h4>Project proposer</h4>
                         </div>}
                         <div className="container">
                             <div className="row">

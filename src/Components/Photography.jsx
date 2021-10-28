@@ -2,10 +2,11 @@ import '../App.css'
 import Projects from './Projects'
 import dataBcn from './PhotoProjectData/DataBcn'
 import dataGrund from './PhotoProjectData/DataGrund'
+import dataAutumn from './PhotoProjectData/DataAutumn'
 
 
 const Photography = () => {
-    const imageDatas = [...dataBcn, ...dataGrund]
+    const imageDatas = [...dataBcn, ...dataGrund, ...dataAutumn]
     return (
         <div>
             <section>

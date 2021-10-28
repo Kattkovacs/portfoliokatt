@@ -8,7 +8,7 @@ const Contact = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center py-4 mb-5">
-                            <h4>Get in touch</h4>
+                            <h4>Let's get in contact</h4>
                         </div>
                         <div className="col-md-6 maps d-flex justify-content-center align-items-center" >
                             <div className="mapouter"><div className="gmap_canvas">
