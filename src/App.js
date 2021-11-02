@@ -15,6 +15,7 @@ import ProjectUgocsa from './Components/GraphicProjectData/ProjectUgocsa';
 import ProjectBcn from './Components/PhotoProjectData/ProjectBcn';
 import ProjectGrundImpro from './Components/PhotoProjectData/ProjectGrundImpro';
 import ProjectAutumn from './Components/PhotoProjectData/ProjectAutumn';
+import ProjectIgnaci from './Components/WebProjectData/ProjectIgnaci';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <Route exact path='/photo-bcn' component={ProjectBcn}/>
       <Route exact path='/photo-grund-impro' component={ProjectGrundImpro}/>
       <Route exact path='/photo-autumn' component={ProjectAutumn}/>
+      <Route exact path='/web-ipm' component={ProjectIgnaci}/>
     </Switch>
   <Footer />
   </>
